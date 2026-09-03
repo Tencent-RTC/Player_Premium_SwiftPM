@@ -1,7 +1,7 @@
 // swift-tools-version:5.7
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 //
-// Version: 13.4.0.21067
+// Version: 13.5.0.21355
 // Summary: TXLiteAVSDK_Player_Premium
 // Description: TXLiteAVSDK Player Premium is a playback component that enables you to integrate powerful video playback capabilities—comparable to
 // those of Tencent Video—using just a few lines of code.
@@ -24,18 +24,18 @@ let package = Package(
 
         .binaryTarget(
             name: "TXLiteAVSDK_Player_Premium",
-            url: "https://liteav.sdk.qcloud.com/download/spm/13.4/player_premium/13.4.0.21067/TXLiteAVSDK_Player_Premium.xcframework.zip",
-            checksum: "56185fb1f4713dc9a02496314b757057fc0263ce9fac9d0499ce69b9c23bfe80"
+            url: "https://liteav.sdk.qcloud.com/download/spm/13.5/player_premium/13.5.0.21355/TXLiteAVSDK_Player_Premium.xcframework.zip",
+            checksum: "71b0298ef853898becdcbb538a4d1820b7c8ee4607c1085db58e2a2233594086"
         ),
         .binaryTarget(
             name: "TXFFmpeg",
-            url: "https://liteav.sdk.qcloud.com/download/spm/13.4/player_premium/13.4.0.21067/TXFFmpeg.xcframework.zip",
-            checksum: "d8f5967d5773bf85cef3baed271f69e04497810c80bd66bb942d55d9a8812af0"
+            url: "https://liteav.sdk.qcloud.com/download/spm/13.5/player_premium/13.5.0.21355/TXFFmpeg.xcframework.zip",
+            checksum: "a60fd7ab8df2d1c1c593b38e1e4357bb96eb5181ae8a81a6d402c60d626f48fe"
         ),
         .binaryTarget(
             name: "TXSoundTouch",
-            url: "https://liteav.sdk.qcloud.com/download/spm/13.4/player_premium/13.4.0.21067/TXSoundTouch.xcframework.zip",
-            checksum: "f88c38e275141dd1274f64923c052fddd18983896b6da879b9bf53bd8de94eda"
+            url: "https://liteav.sdk.qcloud.com/download/spm/13.5/player_premium/13.5.0.21355/TXSoundTouch.xcframework.zip",
+            checksum: "7d075c9a5761504a44929c33ac41855b6995fcb464a8276b658c7803021befe5"
         ),
         // ==================== Wrapper Target ====================
 
@@ -58,7 +58,6 @@ let package = Package(
                 .linkedFramework("AVFoundation"),
                 .linkedFramework("Accelerate"),
                 .linkedFramework("CoreServices"),
-                .linkedFramework("ReplayKit"),
                 .linkedLibrary("z"),
                 .linkedLibrary("resolv"),
                 .linkedLibrary("iconv"),

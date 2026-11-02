@@ -1,7 +1,7 @@
 // swift-tools-version:5.7
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 //
-// Version: 13.5.0.21355
+// Version: 13.6.0.21648
 // Summary: TXLiteAVSDK_Player_Premium
 // Description: TXLiteAVSDK Player Premium is a playback component that enables you to integrate powerful video playback capabilities—comparable to
 // those of Tencent Video—using just a few lines of code.
@@ -24,18 +24,18 @@ let package = Package(
 
         .binaryTarget(
             name: "TXLiteAVSDK_Player_Premium",
-            url: "https://liteav.sdk.qcloud.com/download/spm/13.5/player_premium/13.5.0.21355/TXLiteAVSDK_Player_Premium.xcframework.zip",
-            checksum: "71b0298ef853898becdcbb538a4d1820b7c8ee4607c1085db58e2a2233594086"
+            url: "https://liteav.sdk.qcloud.com/download/spm/13.6/player_premium/13.6.0.21648/TXLiteAVSDK_Player_Premium.xcframework.zip",
+            checksum: "c4c0917b8119d202c22f86bc343675b66b72fbd30850b316bf9917b86017afdf"
         ),
         .binaryTarget(
             name: "TXFFmpeg",
-            url: "https://liteav.sdk.qcloud.com/download/spm/13.5/player_premium/13.5.0.21355/TXFFmpeg.xcframework.zip",
-            checksum: "a60fd7ab8df2d1c1c593b38e1e4357bb96eb5181ae8a81a6d402c60d626f48fe"
+            url: "https://liteav.sdk.qcloud.com/download/spm/13.6/player_premium/13.6.0.21648/TXFFmpeg.xcframework.zip",
+            checksum: "53f89a30590f31cf9e5febe65178e23623f4008570a99d54491d67c4924bc394"
         ),
         .binaryTarget(
             name: "TXSoundTouch",
-            url: "https://liteav.sdk.qcloud.com/download/spm/13.5/player_premium/13.5.0.21355/TXSoundTouch.xcframework.zip",
-            checksum: "7d075c9a5761504a44929c33ac41855b6995fcb464a8276b658c7803021befe5"
+            url: "https://liteav.sdk.qcloud.com/download/spm/13.6/player_premium/13.6.0.21648/TXSoundTouch.xcframework.zip",
+            checksum: "b2698a7e7087bc9454434b38031f79709001e06d0fd0457e36dc1e057ec73570"
         ),
         // ==================== Wrapper Target ====================
 
